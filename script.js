@@ -1,47 +1,27 @@
-// / For loop in Array :
-let array = [1,2,3,4,5]
-console.log("For Method in Array");
-
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    console.log(element);
+let RESUME={
+    "NAME":"S SHAMSHATH BEGUM",
+    "ADDRESS":{"No":12,"STREET":"VALLIMAL","DISTRICT":"TRICHY","MOBILE NO":9842393430,"E-MAIL ID":"shama29.b@gmail.com"},
+    "isMARRIED":"TRUE",
+    "HOBBIES":"NULL",
+    "UG":"ECE",
+    "YEAR":2000,
+    "PERCENTAGE":"85%", 
+    "COLLEGE":"JCE",
+    "PG":"CSE",
+    "YEAR":2004,
+    "PERCENTAGE":"85%",
+    "COLLEGE":"KBN",
+    "EXPERIENCE":{
+        "TEACHING":{
+            "COLLEGE":{
+                "NAME":"KBN",
+                "YEARS":3,
+            },
+         TECHNICAL:{
+            "NAME":"AZAMTECHNOLOGIES",
+            "YEAR":1
+         }   
+        }
+    }
 }
-
-// For in Method in Object:
-let employee = {
-    Name: "shama",
-    Age: 26,
-    Company_name: "XYZ Technologies",
-    Address: "Coimbagore"
-}
-console.log("For in Method in Object");
-
-for (let n in employee) {
-    console.log(n + ": " + employee[n]);
-}
-
-// For in Method in Array:
-let staff =["shama", "sheereen", "rifa"]
-console.log("For in Method in Array");
-
-for (let z in staff){
-    console.log(staff[z]);
-}
-
-// For of Method in Array:
-const colour =["Black", "White", "Red"]
-console.log("For of Method in Array");
-
-for (let m of colour){
-    console.log(m);
-}
-
-// For Each Method in Array:
-let district =["Coimbatore", "Tirupur", "Dindugal"]
-console.log("For Each Method in Array");
-
-district.forEach(y => {
-    console.log(y);
-});
-
- 
+console.log(RESUME);
